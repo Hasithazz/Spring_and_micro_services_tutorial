@@ -4,10 +4,10 @@ import java.time.LocalDate;
 
 public class User {
     private String name;
-    private int id;
+    private Integer id;
     private LocalDate birthDate;
 
-    public User(int id, String name, LocalDate birthDate) {
+    public User(Integer id, String name, LocalDate birthDate) {
         this.name = name;
         this.id = id;
         this.birthDate = birthDate;
@@ -21,11 +21,11 @@ public class User {
         this.name = name;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
